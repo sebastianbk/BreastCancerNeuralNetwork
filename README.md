@@ -11,7 +11,10 @@ Sample Data Source
 ==================
 The sample data used in this example comes the University of Wisconsin. The features in the data set are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.
 
-In this example, the data set has been slightly re-formatted. The CSV file in the project does not include the ID number of each observation. Moreover, the original 'class' variable has been re-encoded so that '2 => 1,0' and '4 => 0,1'.
+In this example, the data set has been slightly re-formatted. The CSV file in the project does not include the ID number of each observation. Moreover, the original class variable has been re-encoded in the following manner:
+
+	2 => 1,0
+	4 => 0,1
 
 The original data set can be found here: http://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
 
