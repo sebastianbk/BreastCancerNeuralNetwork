@@ -3,7 +3,7 @@ Breast Cancer Neural Network in .NET
 
 This project is an example of how to implement a neural network (using back-propagation) in C# (.NET). It is based on James McCaffrey's demo at Build 2014 in San Francisco but, rather than using the Iris sample data set, it uses the Diagnostic Wisconsin Breast Cancer Database.
 
-Compared to McCaffrey's original code, this example is a little tidier and easier to navigate in.
+All credit goes to James McCaffrey for implementing the back-propagation algorithm. I simply refactored parts of the original code to make it a little tidier and easier to navigate in for other developers.
 
 You can find the original source code here: http://quaetrix.com/Build2014.html
 
